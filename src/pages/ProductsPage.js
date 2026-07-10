@@ -34,7 +34,7 @@ function ProductsPage() {
             <h1 className="mb-0">Products</h1>
           </div>
 
-          <div className="products-toolbar d-flex flex-column flex-lg-row align-items-stretch align-items-lg-center gap-2">
+          <div className="products-toolbar d-flex flex-column flex-md-row align-items-stretch align-items-md-center gap-2">
             <div className="input-group product-search">
               <span className="input-group-text bg-white">
                 <i className="fa-solid fa-magnifying-glass text-secondary" />

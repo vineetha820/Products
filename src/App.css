@@ -245,12 +245,23 @@ input {
 .product-search {
   flex: 1 1 260px;
   min-width: 0;
+  height: 44px;
+  max-height: 44px;
+  flex-wrap: nowrap;
+}
+
+.product-search .input-group-text,
+.product-search .form-control {
+  height: 44px;
+  min-height: 44px;
+  max-height: 44px;
 }
 
 .products-toolbar .input-group,
 .cart-count,
 .cart-link {
   min-height: 44px;
+  max-height: 44px;
 }
 
 .cart-count,
@@ -261,6 +272,10 @@ input {
 .products-header,
 .products-toolbar {
   min-width: 0;
+}
+
+.products-header {
+  align-items: flex-start;
 }
 
 .cart-item-image {
